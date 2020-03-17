@@ -1,0 +1,39 @@
+.flex-container{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    background-color: #2e7cf6;
+    
+}
+#signupform{
+ margin-bottom: 20px;
+ margin-right: 50px;
+ margin-left: 50px;
+ max-width: 30%;
+ 
+}
+
+img{
+    width: 32%;
+}
+
+btn{
+    background-color: black;
+}
+
+@media screen and (max-width: 750px){
+    .flex-container{
+        display: flex;
+        flex-flow: column;
+        background-color: #2e7cf6;
+        align-items: center;
+        
+    }
+    #signupform{
+        margin-bottom: 20px;
+        margin-right: 0px;
+        margin-left: 0px;
+        min-width: 50%;    
+
+       }
+}

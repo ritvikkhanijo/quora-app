@@ -1,0 +1,44 @@
+.mynav{
+    background-color: black;
+    width: 100%;
+    overflow: hidden;
+}
+.mynav a {
+    float: left;
+    color: #2e7cf6;
+    text-align: center;
+    padding: 10px 10px 8px 8px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+
+  .mynav a #logo{
+      padding: 0px !important;
+  }
+  .mynav a:hover {
+    color: white;
+  }
+
+  @media screen and (max-width: 750px){
+    .mynav{
+        background-color: black;
+        width: 100%;
+    }
+    .mynav a {
+        display: block;
+        color: #2e7cf6;
+        text-align: center;
+        padding: 10px 10px 8px 8px;
+        text-decoration: none;
+        font-size: 30px;
+        clear: both;
+        width: 100%;
+      }
+      .mynav a:hover {
+        color: white;
+      }   
+      .mynav a #logo{
+          display: hide !important;
+      }
+  }
+  
